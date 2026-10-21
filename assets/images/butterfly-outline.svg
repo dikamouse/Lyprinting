@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none" stroke="#0284c7" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Morpho Peleides Butterfly Outline Watermark -->
+  <g class="butterfly-outline" stroke-width="2.2">
+    
+    <!-- Central Body & Antennae -->
+    <g class="butterfly-body" stroke-width="2">
+      <!-- Left Antenna -->
+      <path d="M 292 142 C 280 115 255 75 220 55 C 215 52 211 55 214 60 C 218 64 228 69 235 80" />
+      <circle cx="215" cy="56" r="3.5" fill="#0284c7" />
+      
+      <!-- Right Antenna -->
+      <path d="M 308 142 C 320 115 345 75 380 55 C 385 52 389 55 386 60 C 382 64 372 69 365 80" />
+      <circle cx="385" cy="56" r="3.5" fill="#0284c7" />
+      
+      <!-- Head -->
+      <ellipse cx="300" cy="150" rx="9" ry="8" />
+      <circle cx="294" cy="148" r="3" />
+      <circle cx="306" cy="148" r="3" />
+      
+      <!-- Thorax -->
+      <path d="M 291 158 C 290 175 290 195 292 208 C 294 213 306 213 308 208 C 310 195 310 175 309 158 Z" />
+      <line x1="292" y1="174" x2="308" y2="174" stroke-width="1.2" />
+      <line x1="292" y1="190" x2="308" y2="190" stroke-width="1.2" />
+      
+      <!-- Abdomen -->
+      <path d="M 294 208 C 293 235 294 270 297 305 C 298 310 302 310 303 305 C 306 270 307 235 306 208 Z" />
+      <!-- Abdomen segments -->
+      <line x1="294" y1="222" x2="306" y2="222" stroke-width="1.2" />
+      <line x1="295" y1="238" x2="305" y2="238" stroke-width="1.2" />
+      <line x1="295" y1="254" x2="305" y2="254" stroke-width="1.2" />
+      <line x1="296" y1="270" x2="304" y2="270" stroke-width="1.2" />
+      <line x1="296" y1="286" x2="304" y2="286" stroke-width="1.2" />
+    </g>
+
+    <!-- LEFT FOREWING -->
+    <!-- Outer Contour (Morpho style arched apex & scalloped outer margin) -->
+    <path class="wing-contour" stroke-width="2.6" d="
+      M 292 165
+      C 260 145 200 100 135 60
+      C 105 42 70 34 45 42
+      C 32 46 25 58 28 72
+      C 34 98 48 135 60 170
+      C 67 190 70 200 68 215
+      C 66 226 73 236 82 248
+      C 89 257 97 266 108 273
+      C 125 285 155 288 185 275
+      C 220 260 260 220 291 185
+    " />
+
+    <!-- Left Forewing Internal Veins -->
+    <g class="wing-veins" stroke-width="1.4" opacity="0.85">
+      <!-- Discal cell -->
+      <path d="M 285 168 C 240 155 190 148 155 155 C 135 160 140 180 168 185 C 210 192 255 186 288 180" />
+      
+      <!-- Subcostal and radial veins -->
+      <path d="M 230 135 C 195 105 145 80 85 62" />
+      <path d="M 195 145 C 160 115 115 95 62 82" />
+      <path d="M 165 152 C 125 125 85 118 45 115" />
+      <path d="M 155 158 C 118 148 85 150 50 152" />
+      
+      <!-- Medial & Cubital veins extending to outer margin -->
+      <path d="M 158 168 C 128 175 95 185 66 200" />
+      <path d="M 168 180 C 138 200 110 220 78 232" />
+      <path d="M 185 185 C 160 215 130 245 98 260" />
+      <path d="M 215 188 C 190 225 165 258 135 272" />
+      <path d="M 250 185 C 230 220 205 255 170 274" />
+      
+      <!-- Fine sub-marginal arcs -->
+      <path d="M 50 100 C 60 120 62 140 58 165" stroke-dasharray="2 3" opacity="0.6" />
+      <path d="M 68 180 C 78 198 80 220 76 240" stroke-dasharray="2 3" opacity="0.6" />
+    </g>
+
+    <!-- RIGHT FOREWING -->
+    <!-- Outer Contour -->
+    <path class="wing-contour" stroke-width="2.6" d="
+      M 308 165
+      C 340 145 400 100 465 60
+      C 495 42 530 34 555 42
+      C 568 46 575 58 572 72
+      C 566 98 552 135 540 170
+      C 533 190 530 200 532 215
+      C 534 226 527 236 518 248
+      C 511 257 503 266 492 273
+      C 475 285 445 288 415 275
+      C 380 260 340 220 309 185
+    " />
+
+    <!-- Right Forewing Internal Veins -->
+    <g class="wing-veins" stroke-width="1.4" opacity="0.85">
+      <!-- Discal cell -->
+      <path d="M 315 168 C 360 155 410 148 445 155 C 465 160 460 180 432 185 C 390 192 345 186 312 180" />
+      
+      <!-- Subcostal and radial veins -->
+      <path d="M 370 135 C 405 105 455 80 515 62" />
+      <path d="M 405 145 C 440 115 485 95 538 82" />
+      <path d="M 435 152 C 475 125 515 118 555 115" />
+      <path d="M 445 158 C 482 148 515 150 550 152" />
+      
+      <!-- Medial & Cubital veins extending to outer margin -->
+      <path d="M 442 168 C 472 175 505 185 534 200" />
+      <path d="M 432 180 C 462 200 490 220 522 232" />
+      <path d="M 415 185 C 440 215 470 245 502 260" />
+      <path d="M 385 188 C 410 225 435 258 465 272" />
+      <path d="M 350 185 C 370 220 395 255 430 274" />
+      
+      <!-- Fine sub-marginal arcs -->
+      <path d="M 550 100 C 540 120 538 140 542 165" stroke-dasharray="2 3" opacity="0.6" />
+      <path d="M 532 180 C 522 198 520 220 524 240" stroke-dasharray="2 3" opacity="0.6" />
+    </g>
+
+    <!-- LEFT HINDWING (Scalloped wavy edge khas Morpho) -->
+    <!-- Outer Contour with distinctive undulations/scallops -->
+    <path class="wing-contour" stroke-width="2.6" d="
+      M 288 200
+      C 255 210 200 230 160 255
+      C 125 276 100 295 95 320
+      C 91 336 98 348 108 360
+      C 103 370 106 385 118 398
+      C 128 410 142 418 158 426
+      C 170 432 184 430 196 422
+      C 208 430 222 428 234 418
+      C 246 406 256 385 266 360
+      C 278 330 286 280 294 225
+    " />
+
+    <!-- Left Hindwing Internal Veins -->
+    <g class="wing-veins" stroke-width="1.4" opacity="0.85">
+      <!-- Hindwing discal cell -->
+      <path d="M 285 220 C 250 235 215 260 205 285 C 200 305 225 315 255 300 C 275 290 285 260 290 235" />
+      
+      <!-- Veins radiating towards scalloped outer margin -->
+      <path d="M 195 265 C 160 285 130 305 102 332" />
+      <path d="M 205 285 C 170 315 140 345 114 372" />
+      <path d="M 220 302 C 190 340 165 375 135 410" />
+      <path d="M 238 308 C 215 350 195 385 178 420" />
+      <path d="M 252 302 C 240 345 225 385 212 418" />
+      <path d="M 262 290 C 258 325 252 360 245 398" />
+      
+      <!-- Scallop rim contours -->
+      <path d="M 102 342 C 108 352 116 358 112 368" opacity="0.6" />
+      <path d="M 115 378 C 124 388 132 395 128 406" opacity="0.6" />
+      <path d="M 136 414 C 148 420 160 422 170 416" opacity="0.6" />
+    </g>
+
+    <!-- RIGHT HINDWING (Scalloped wavy edge khas Morpho) -->
+    <!-- Outer Contour with distinctive undulations/scallops -->
+    <path class="wing-contour" stroke-width="2.6" d="
+      M 312 200
+      C 345 210 400 230 440 255
+      C 475 276 500 295 505 320
+      C 509 336 502 348 492 360
+      C 497 370 494 385 482 398
+      C 472 410 458 418 442 426
+      C 430 432 416 430 404 422
+      C 392 430 378 428 366 418
+      C 354 406 344 385 334 360
+      C 322 330 314 280 306 225
+    " />
+
+    <!-- Right Hindwing Internal Veins -->
+    <g class="wing-veins" stroke-width="1.4" opacity="0.85">
+      <!-- Hindwing discal cell -->
+      <path d="M 315 220 C 350 235 385 260 395 285 C 400 305 375 315 345 300 C 325 290 315 260 310 235" />
+      
+      <!-- Veins radiating towards scalloped outer margin -->
+      <path d="M 405 265 C 440 285 470 305 498 332" />
+      <path d="M 395 285 C 430 315 460 345 486 372" />
+      <path d="M 380 302 C 410 340 435 375 465 410" />
+      <path d="M 362 308 C 385 350 405 385 422 420" />
+      <path d="M 348 302 C 360 345 375 385 388 418" />
+      <path d="M 338 290 C 342 325 348 360 355 398" />
+      
+      <!-- Scallop rim contours -->
+      <path d="M 498 342 C 492 352 484 358 488 368" opacity="0.6" />
+      <path d="M 485 378 C 476 388 468 395 472 406" opacity="0.6" />
+      <path d="M 464 414 C 452 420 440 422 430 416" opacity="0.6" />
+    </g>
+
+  </g>
+</svg>

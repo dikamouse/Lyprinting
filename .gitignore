@@ -1,0 +1,14 @@
+# Dependencies & environment
+node_modules/
+.env
+.env.local
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Vercel output
+.vercel/
