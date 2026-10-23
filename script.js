@@ -26,7 +26,7 @@ const PRODUCT_MATERIALS = {
       desc: "🚩 Terpal flexy standar kuat & anti luntur, sangat ekonomis untuk spanduk toko, warung makan, promosi, dan event outdoor."
     },
     {
-      name: "Bahan Flexy Korea (Rp 55.000 / m)",
+      name: "Bahan Flexy Korea (Rp 50.000 / m)",
       desc: "🛡️ Terpal Flexy Korea 440g super tebal dan serat padat, kualitas terbaik anti robek dan tahan panas hujan berbulan-bulan."
     },
     {
@@ -36,11 +36,15 @@ const PRODUCT_MATERIALS = {
   ],
   "Stiker & Label Kemasan": [
     {
-      name: "Stiker Vinyl Anti Air Label Produk (Rp 10.000 / A3+)",
-      desc: "💧 Bahan vinyl putih 100% anti air & tahan freezer es, 1 lembar A3+ bisa dapat puluhan sampai ratusan pcs label botol/makanan."
+      name: "Stiker Vinyl Cetak Saja (Rp 10.000 / A3+)",
+      desc: "💧 Bahan vinyl putih 100% anti air & tahan freezer es, harga cetak saja dalam lembaran A3+ tanpa potongan pola (potong sendiri)."
     },
     {
-      name: "Stiker Motor Vinyl + Laminasi + Cutting Pola (Rp 30.000 / A3+)",
+      name: "Stiker Vinyl + Cutting Pola (Rp 25.000 / A3+)",
+      desc: "✂️ Paket komplit cetak stiker vinyl anti air + cutting mesin kiss-cut pola presisi. Tinggal kelupas dan langsung tempel ke kemasan botol/toples!"
+    },
+    {
+      name: "Stiker Motor Vinyl + Laminasi + Cutting (Rp 30.000 / A3+)",
       desc: "🏍️ Bahan vinyl outdoor tebal + lapisan laminasi anti gores + cutting pola presisi (tinggal kelupas dan tempel di motor/helm/laptop)."
     }
   ],
@@ -54,20 +58,28 @@ const PRODUCT_MATERIALS = {
       desc: "📑 Kertas Art Paper glossy cetak bolak-balik 2 sisi depan belakang, muat info promosi lebih banyak."
     }
   ],
-  "Undangan Pernikahan / Acara": [
+  "Undangan & Map Raport": [
     {
       name: "Undangan Kertas BC (Rp 1.300 / pcs, Promo 500 pcs: Rp 1.000)",
       desc: "💌 Kertas Brief Card halus elegan. Free plastik opp kelipatan. Pemesanan 500 pcs hanya Rp 1.000/pcs + Bonus Undangan Website!"
+    },
+    {
+      name: "Undangan Kertas Art Paper (Rp 2.500 / pcs, Min. 300 pcs)",
+      desc: "✨ Kertas Art Paper tebal licin & mengkilap, motif ornamen oriental tajam, lengkap denah lokasi & barcode Maps. Free plastik + Free undangan web!"
+    },
+    {
+      name: "Map Raport Bahan Kulit Hot Print Mengkilat",
+      desc: "🏆 Cetak map raport bahan kulit dengan tulisan hot print yang mengkilat bahan super awet. Cover tebal hardcover berlogo timbul emas berkilau dan mika isian raport."
     }
   ],
   "Kartu Nama Bisnis": [
     {
-      name: "Kartu Nama 1 Sisi (Rp 40.000 / box)",
-      desc: "💼 Kertas Art Carton tebal berkualitas cetak 1 sisi tajam, 1 box isi 100 lembar free box mika bening."
+      name: "Kartu Nama 1 Sisi (Rp 40.000 / box - Free Tempat Kartu)",
+      desc: "💼 Kertas Art Carton tebal berkualitas cetak 1 sisi tajam, 1 box isi 100 lembar free tempat wadah kartu nama khusus."
     },
     {
-      name: "Kartu Nama 2 Sisi Bolak-Balik (Rp 50.000 / box)",
-      desc: "✨ Kertas Art Carton 310g cetak 2 sisi depan belakang eksklusif, muat logo, kontak & QR code, isi 100 pcs free box mika."
+      name: "Kartu Nama 2 Sisi Bolak-Balik (Rp 55.000 / box - Free Tempat Kartu)",
+      desc: "✨ Kertas Art Carton 310g cetak 2 sisi depan belakang eksklusif, muat logo, kontak & QR code, isi 100 pcs free tempat kartu nama khusus."
     }
   ],
   "Daftar Menu Cetak": [
@@ -76,18 +88,30 @@ const PRODUCT_MATERIALS = {
       desc: "🍽️ Kertas licin mengkilap super glossy, warna menu makanan dan minuman terlihat sangat pop-out dan menggugah selera."
     },
     {
-      name: "Art Paper + Laminating Tebal (Rp 15.000 / lembar)",
+      name: "Art Paper + Laminating Tebal (Rp 20.000 / lembar)",
       desc: "💧 Kertas Art Paper dilapisi laminating press tebal, anti air, tahan cipratan minyak, kaku dan mudah dilap bersih."
     }
   ],
   "ID Card & Lanyard": [
     {
-      name: "Cetak ID Card Satuan (Rp 9.000 / pcs)",
-      desc: "💳 Bahan standar kartu ATM anti luntur & awet, sudut membulat rapi untuk kartu nama, member, atau identitas panitia."
+      name: "Cetak ID Card Bahan Art Paper (Rp 900 / pcs)",
+      desc: "💳 Bahan kertas Art Paper tebal standar ID card (bukan PVC), sudut rapi presisi, warna tajam dan sangat ekonomis hanya 900 rupiah!"
     },
     {
       name: "Lanyard + ID Card 1 Set (Rp 35.000 / set)",
       desc: "🏷️ 1 Paket komplit tali lanyard tissue lembut 2 cm cetak bolak-balik + stopper/kait + ID Card. Cetak banyak harga semakin murah!"
+    }
+  ],
+  "Pin & Ganci Kustom": [
+    {
+      name: "Pin & Gantungan Kunci Akrilik Resin (Rp 20.000 / pcs)",
+      desc: "✨ Bahan resin akrilik awet untuk jangka panjang, anti gores & foto HD bening berkilau. Ambil banyak makin murah untuk group / angkatan!"
+    }
+  ],
+  "Sablon Kaos Custom": [
+    {
+      name: "Sablon Kaos Distro Cotton Combed (Mulai Rp 55.000 / pcs)",
+      desc: "👕 Kaos bahan 100% Cotton Combed 24s/30s adem dan lembut dengan sablon presisi anti pecah tahan cuci berulang kali."
     }
   ],
   "Foto Polaroid & Strip": [
@@ -102,8 +126,8 @@ const PRODUCT_MATERIALS = {
   ],
   "Cetak Foto 2D + Bingkai": [
     {
-      name: "Cetak Foto 2D + Bingkai (Mulai Ukuran 10R)",
-      desc: "🖼️ Menerima cetak foto 2D + bingkai frame mewah, bebas pilih ukuran (rekomendasi mulai 10R ke atas) & bebas request desain."
+      name: "Cetak Foto 2D (Mulai Rp 10.000)",
+      desc: "🖼️ Menerima cetak foto 2D + opsi bingkai frame mewah, mulai dari Rp 10.000, bebas pilih ukuran & bebas request desain."
     }
   ],
   "Custom Merchandise & Kado": [
@@ -458,7 +482,7 @@ Mohon dicek dan diinfokan total biayanya ya min. Terima kasih! 🙏`;
       const pricePerMeter = parseInt(bannerMaterial.value) || 24000;
 
       unitPrice = pricePerMeter;
-      const materialName = pricePerMeter === 55000 ? "Flexy Korea 440g Super Tebal" : "Flexy Standard";
+      const materialName = pricePerMeter === 50000 ? "Flexy Korea 440g Super Tebal" : "Flexy Standard";
       sizeText = `${area.toFixed(2)} m² (${width} × ${height} m) • ${materialName}`;
 
       const totalArea = area * qty;
@@ -476,10 +500,16 @@ Mohon dicek dan diinfokan total biayanya ya min. Terima kasih! 🙏`;
         sizeText = "1 Set Lengkap + Tiang Penyangga (Bebas Request Desain)";
         subtotal = (qty * unitPrice) + (finishingCost * qty);
         if (qty >= 5) discountPercent = 7;
-      } else if (productType === "stiker_label") {
-        calcQtyLabel.textContent = "Jumlah Lembar A3+ (Bisa Muat Banyak Pcs Label)";
+      } else if (productType === "stiker_cetak" || productType === "stiker_label") {
+        calcQtyLabel.textContent = "Jumlah Lembar A3+ (Cetak Saja / Tanpa Cut)";
         unitPrice = 10000;
-        sizeText = "Stiker Vinyl Putih 100% Anti Air Tahan Freezer";
+        sizeText = "Stiker Vinyl Putih 100% Anti Air (Hanya Cetak Lembaran A3+)";
+        subtotal = (qty * unitPrice) + (finishingCost * qty);
+        if (qty >= 10) discountPercent = 10;
+      } else if (productType === "stiker_cutting") {
+        calcQtyLabel.textContent = "Jumlah Lembar A3+ (Cetak + Kiss-Cut)";
+        unitPrice = 25000;
+        sizeText = "Stiker Vinyl Anti Air + Cutting Mesin Presisi (Siap Kelupas & Tempel)";
         subtotal = (qty * unitPrice) + (finishingCost * qty);
         if (qty >= 10) discountPercent = 10;
       } else if (productType === "stiker_motor") {
@@ -510,16 +540,28 @@ Mohon dicek dan diinfokan total biayanya ya min. Terima kasih! 🙏`;
           sizeText = "Kertas BC Halus Elegan (Free Plastik Kelipatan)";
         }
         subtotal = (qty * unitPrice) + (finishingCost * qty);
+      } else if (productType === "undangan_artpaper") {
+        calcQtyLabel.textContent = "Jumlah Undangan Art Paper (Pcs - Min. 300)";
+        unitPrice = 2500;
+        sizeText = "Undangan Bahan Art Paper Tebal Mewah + Free Plastik & Undangan Web";
+        subtotal = (qty * unitPrice) + (finishingCost * qty);
+        if (qty >= 500) discountPercent = 8;
+      } else if (productType === "map_raport") {
+        calcQtyLabel.textContent = "Jumlah Map Raport (Pcs)";
+        unitPrice = 18000;
+        sizeText = "Map Raport Bahan Kulit Sintetis Hot Print Emas Mengkilap Super Awet";
+        subtotal = (qty * unitPrice) + (finishingCost * qty);
+        if (qty >= 100) discountPercent = 10;
       } else if (productType === "kartu_1sisi") {
         calcQtyLabel.textContent = "Jumlah Box (1 Box = 100 pcs)";
         unitPrice = 40000;
-        sizeText = "Art Carton Tebal 1 Sisi (Free Box Mika Transparan)";
+        sizeText = "Art Carton Tebal 1 Sisi (Free Tempat Kartu Nama)";
         subtotal = (qty * unitPrice) + (finishingCost * qty);
         if (qty >= 5) discountPercent = 10;
       } else if (productType === "kartu_2sisi") {
         calcQtyLabel.textContent = "Jumlah Box (1 Box = 100 pcs)";
-        unitPrice = 50000;
-        sizeText = "Art Carton 310g 2 Sisi Bolak-Balik (Free Box Mika)";
+        unitPrice = 55000;
+        sizeText = "Art Carton 310g 2 Sisi Bolak-Balik (Free Tempat Kartu Nama)";
         subtotal = (qty * unitPrice) + (finishingCost * qty);
         if (qty >= 5) discountPercent = 10;
       } else if (productType === "menu_glossy") {
@@ -529,21 +571,37 @@ Mohon dicek dan diinfokan total biayanya ya min. Terima kasih! 🙏`;
         subtotal = (qty * unitPrice) + (finishingCost * qty);
       } else if (productType === "menu_laminating") {
         calcQtyLabel.textContent = "Jumlah Lembar Daftar Menu (Pcs)";
-        unitPrice = 15000;
+        unitPrice = 20000;
         sizeText = "Art Paper + Laminating Press Tebal (Anti Air & Minyak)";
         subtotal = (qty * unitPrice) + (finishingCost * qty);
       } else if (productType === "id_card") {
         calcQtyLabel.textContent = "Jumlah ID Card (Pcs)";
-        unitPrice = 9000;
-        sizeText = "Standar Kartu ATM Anti Luntur Sudut Membulat Rapi";
+        unitPrice = 900;
+        sizeText = "Kertas Art Paper Tebal Berkualitas Standar ID Card (Bukan PVC)";
         subtotal = (qty * unitPrice) + (finishingCost * qty);
-        if (qty >= 20) discountPercent = 10;
+        if (qty >= 50) discountPercent = 10;
       } else if (productType === "lanyard_set") {
         calcQtyLabel.textContent = "Jumlah Paket Lanyard + ID Card (Set)";
         unitPrice = 35000;
         sizeText = "1 Set Tali Lanyard Tissue + Kait/Stopper + ID Card (Banyak Makin Murah)";
         subtotal = (qty * unitPrice) + (finishingCost * qty);
         if (qty >= 20) discountPercent = 15;
+      } else if (productType === "pin_ganci") {
+        calcQtyLabel.textContent = "Jumlah Pin / Gantungan Kunci (Pcs)";
+        unitPrice = 20000;
+        sizeText = "Bahan Resin Akrilik Bening Super Awet & Jauh Dari Lecet (Kualitas HD)";
+        subtotal = (qty * unitPrice) + (finishingCost * qty);
+        if (qty >= 50) {
+          discountPercent = 25;
+        } else if (qty >= 20) {
+          discountPercent = 15;
+        }
+      } else if (productType === "kaos_sablon") {
+        calcQtyLabel.textContent = "Jumlah Kaos Sablon (Pcs)";
+        unitPrice = 55000;
+        sizeText = "100% Cotton Combed 24s/30s Adem + Sablon Presisi Tahan Cuci";
+        subtotal = (qty * unitPrice) + (finishingCost * qty);
+        if (qty >= 12) discountPercent = 10;
       } else if (productType === "polaroid") {
         calcQtyLabel.textContent = "Jumlah Cetak Polaroid (Pcs)";
         unitPrice = 500;
@@ -567,9 +625,9 @@ Mohon dicek dan diinfokan total biayanya ya min. Terima kasih! 🙏`;
         subtotal = (qty * unitPrice) + (finishingCost * qty);
         if (qty >= 20) discountPercent = 10;
       } else if (productType === "foto_frame") {
-        calcQtyLabel.textContent = "Jumlah Foto + Bingkai (Pcs)";
-        unitPrice = 50000;
-        sizeText = "Cetak Foto 2D + Bingkai Frame Minimalis (Mulai Ukuran 10R)";
+        calcQtyLabel.textContent = "Jumlah Cetak Foto 2D (Pcs)";
+        unitPrice = 10000;
+        sizeText = "Cetak Foto 2D + Opsi Bingkai Frame (Mulai Rp 10.000 / Bebas Request Desain)";
         subtotal = (qty * unitPrice) + (finishingCost * qty);
       }
     }
@@ -626,7 +684,7 @@ Mohon dicek dan diinfokan total biayanya ya min. Terima kasih! 🙏`;
 
       if (productType === "spanduk") {
         orderProductSelect.value = "Spanduk & Banner";
-        populateMaterialsForProduct("Spanduk & Banner", bannerMaterial.value === "55000" ? "Flexy Korea" : "Flexy Standard");
+        populateMaterialsForProduct("Spanduk & Banner", bannerMaterial.value === "50000" ? "Flexy Korea" : "Flexy Standard");
         orderDimensionsInput.value = `${bannerWidth.value} x ${bannerHeight.value} meter`;
         orderQuantityInput.value = `${qty} lembar`;
         orderFinishingInput.value = `Estimasi kalkulator: ${totalEst}. Finishing mata ayam pojok.`;
@@ -638,7 +696,13 @@ Mohon dicek dan diinfokan total biayanya ya min. Terima kasih! 🙏`;
         orderFinishingInput.value = `Estimasi kalkulator: ${totalEst}. Bebas request desain.`;
       } else if (productType.includes("stiker")) {
         orderProductSelect.value = "Stiker & Label Kemasan";
-        populateMaterialsForProduct("Stiker & Label Kemasan", productType === "stiker_motor" ? "Stiker Motor" : "Vinyl Anti Air");
+        if (productType === "stiker_cutting") {
+          populateMaterialsForProduct("Stiker & Label Kemasan", "Cutting Pola");
+        } else if (productType === "stiker_motor") {
+          populateMaterialsForProduct("Stiker & Label Kemasan", "Stiker Motor");
+        } else {
+          populateMaterialsForProduct("Stiker & Label Kemasan", "Cetak Saja");
+        }
         orderDimensionsInput.value = "Ukuran Lembar A3+";
         orderQuantityInput.value = `${qty} lembar A3+`;
         orderFinishingInput.value = `Estimasi kalkulator: ${totalEst}.`;
@@ -648,28 +712,58 @@ Mohon dicek dan diinfokan total biayanya ya min. Terima kasih! 🙏`;
         orderDimensionsInput.value = "Ukuran Standar A5";
         orderQuantityInput.value = `${qty} pcs`;
         orderFinishingInput.value = `Estimasi kalkulator: ${totalEst}.`;
-      } else if (productType === "undangan_bc") {
-        orderProductSelect.value = "Undangan Pernikahan / Acara";
-        populateMaterialsForProduct("Undangan Pernikahan / Acara", "Undangan Kertas BC");
-        orderDimensionsInput.value = "Standar Undangan BC";
-        orderQuantityInput.value = `${qty} pcs`;
-        orderFinishingInput.value = `Estimasi kalkulator: ${totalEst}. Free plastik OPP.`;
+      } else if (productType === "undangan_bc" || productType === "undangan_artpaper" || productType === "map_raport") {
+        orderProductSelect.value = "Undangan & Map Raport";
+        if (productType === "map_raport") {
+          populateMaterialsForProduct("Undangan & Map Raport", "Map Raport");
+          orderDimensionsInput.value = "Ukuran Standar Raport / Ijazah Folio";
+          orderQuantityInput.value = `${qty} pcs`;
+          orderFinishingInput.value = `Estimasi kalkulator: ${totalEst}. Cover kulit sintetis hot print emas mengkilap.`;
+        } else if (productType === "undangan_artpaper") {
+          populateMaterialsForProduct("Undangan & Map Raport", "Art Paper");
+          orderDimensionsInput.value = "Standar Undangan Art Paper Lipat 2 / 3";
+          orderQuantityInput.value = `${qty} pcs`;
+          orderFinishingInput.value = `Estimasi kalkulator: ${totalEst}. Free plastik OPP & website.`;
+        } else {
+          populateMaterialsForProduct("Undangan & Map Raport", "Undangan Kertas BC");
+          orderDimensionsInput.value = "Standar Undangan BC";
+          orderQuantityInput.value = `${qty} pcs`;
+          orderFinishingInput.value = `Estimasi kalkulator: ${totalEst}. Free plastik OPP.`;
+        }
       } else if (productType.includes("kartu")) {
         orderProductSelect.value = "Kartu Nama Bisnis";
         populateMaterialsForProduct("Kartu Nama Bisnis", productType === "kartu_2sisi" ? "2 Sisi" : "1 Sisi");
-        orderDimensionsInput.value = "9 x 5.5 cm (Free Box Mika)";
+        orderDimensionsInput.value = "9 x 5.5 cm (Free Tempat Kartu Nama)";
         orderQuantityInput.value = `${qty} box (isi ${qty * 100} pcs)`;
-        orderFinishingInput.value = `Estimasi kalkulator: ${totalEst}.`;
+        orderFinishingInput.value = `Estimasi kalkulator: ${totalEst}. Free tempat kartu nama.`;
       } else if (productType.includes("menu")) {
         orderProductSelect.value = "Daftar Menu Cetak";
         populateMaterialsForProduct("Daftar Menu Cetak", productType === "menu_laminating" ? "Laminating" : "Glossy");
         orderDimensionsInput.value = "Ukuran A4 / F4";
         orderQuantityInput.value = `${qty} lembar`;
         orderFinishingInput.value = `Estimasi kalkulator: ${totalEst}.`;
+      } else if (productType === "id_card" || productType === "lanyard_set") {
+        orderProductSelect.value = "ID Card & Lanyard";
+        populateMaterialsForProduct("ID Card & Lanyard", productType === "lanyard_set" ? "Lanyard" : "Art Paper");
+        orderDimensionsInput.value = "Ukuran Standar ID Card (8.5 x 5.4 cm)";
+        orderQuantityInput.value = `${qty} pcs`;
+        orderFinishingInput.value = `Estimasi kalkulator: ${totalEst}.`;
+      } else if (productType === "pin_ganci") {
+        orderProductSelect.value = "Pin & Ganci Kustom";
+        populateMaterialsForProduct("Pin & Ganci Kustom");
+        orderDimensionsInput.value = "Standar Gantungan Kunci / Pin Bulat";
+        orderQuantityInput.value = `${qty} pcs`;
+        orderFinishingInput.value = `Estimasi kalkulator: ${totalEst}. Bahan resin akrilik awet.`;
+      } else if (productType === "kaos_sablon") {
+        orderProductSelect.value = "Sablon Kaos Custom";
+        populateMaterialsForProduct("Sablon Kaos Custom");
+        orderDimensionsInput.value = "Ukuran Kaos S/M/L/XL/XXL";
+        orderQuantityInput.value = `${qty} pcs`;
+        orderFinishingInput.value = `Estimasi kalkulator: ${totalEst}. Cotton Combed 24s/30s adem.`;
       } else if (productType.includes("polaroid") || productType.includes("strip") || productType === "foto_frame") {
         orderProductSelect.value = productType === "foto_frame" ? "Cetak Foto 2D + Bingkai" : "Foto Polaroid & Strip";
         populateMaterialsForProduct(orderProductSelect.value);
-        orderDimensionsInput.value = productType === "foto_frame" ? "Mulai Ukuran 10R" : (productType === "polaroid" ? "Polaroid" : "Photo Strip");
+        orderDimensionsInput.value = productType === "foto_frame" ? "Mulai Rp 10.000 (Ukuran Bebas Request)" : (productType === "polaroid" ? "Polaroid" : "Photo Strip");
         orderQuantityInput.value = `${qty} pcs`;
         orderFinishingInput.value = `Estimasi kalkulator: ${totalEst}.`;
       } else {
@@ -843,7 +937,7 @@ Mohon dicek dan diinfokan total biayanya ya min. Terima kasih! 🙏`;
   const lightboxTitle = document.getElementById("lightboxTitle");
   const lightboxDesc = document.getElementById("lightboxDesc");
   const lightboxOrderBtn = document.getElementById("lightboxOrderBtn");
-  const zoomableElements = document.querySelectorAll(".portfolio-media-compact, .portfolio-img-zoomable");
+  const zoomableElements = document.querySelectorAll(".portfolio-media-compact, .portfolio-img-zoomable, .service-image-box");
 
   let currentLightboxProduct = "";
 
@@ -853,10 +947,21 @@ Mohon dicek dan diinfokan total biayanya ya min. Terima kasih! 🙏`;
       const img = elem.tagName === "IMG" ? elem : elem.querySelector("img");
       if (!img || !lightboxModal) return;
 
+      const card = elem.closest(".service-card");
+      const cardTitle = card?.querySelector(".service-name")?.textContent?.trim();
+      const cardDesc = card?.querySelector(".service-desc")?.textContent?.trim();
+      const cardPrice = card?.querySelector(".service-price strong")?.textContent?.trim();
+      const cardBtn = card?.querySelector(".select-product-btn");
+
       const src = img.getAttribute("src");
-      const title = img.getAttribute("data-title") || img.getAttribute("alt") || "Hasil Cetak Percetakan";
-      const desc = img.getAttribute("data-desc") || "Hasil pengerjaan percetakan presisi berkualitas tinggi oleh LY PRINTING.";
-      currentLightboxProduct = img.getAttribute("data-product") || "Spanduk & Banner";
+      const title = img.getAttribute("data-title") || cardTitle || img.getAttribute("alt") || "Hasil Cetak Percetakan";
+      let desc = img.getAttribute("data-desc");
+      if (!desc && cardDesc) {
+        desc = `${cardDesc} • Estimasi: ${cardPrice || 'Hubungi Kami'}`;
+      } else if (!desc) {
+        desc = "Hasil pengerjaan percetakan presisi berkualitas tinggi oleh LY PRINTING.";
+      }
+      currentLightboxProduct = img.getAttribute("data-product") || cardBtn?.getAttribute("data-product") || cardTitle || "Spanduk & Banner";
 
       lightboxImg.src = src;
       lightboxImg.alt = title;
@@ -866,6 +971,20 @@ Mohon dicek dan diinfokan total biayanya ya min. Terima kasih! 🙏`;
       lightboxModal.classList.add("active");
       lightboxModal.setAttribute("aria-hidden", "false");
       document.body.style.overflow = "hidden";
+    });
+  });
+
+  // Make whole service card interactive on click
+  const allServiceCards = document.querySelectorAll("#servicesGrid .service-card");
+  allServiceCards.forEach(card => {
+    card.addEventListener("click", (e) => {
+      if (e.target.closest(".select-product-btn") || e.target.closest(".service-image-box")) {
+        return;
+      }
+      const imgBox = card.querySelector(".service-image-box");
+      if (imgBox) {
+        imgBox.click();
+      }
     });
   });
 
